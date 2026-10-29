@@ -42,3 +42,12 @@ Install Python 3.11 or later, then run from the extracted kit folder:
   bash BUILD_CDI.sh /path/to/sfz2ald.zip
 
 See TESTING.txt in the kit for validation details.
+
+Development tools and code used for this project: 
+
+KallistiOS (KOS)	Dreamcast SDK, hardware interfaces, graphics, audio, controllers, and VMU support.
+GNU GCC and GNU Binutils — SH-4 toolchain	Compiling, assembling, linking, and inspecting Dreamcast executables.
+Flycast	Runtime testing, debugging, screenshots, and performance checks.
+NJEMU / inherited CPS2 emulator source	Emulator foundation used in the experimental CPS2-to-Dreamcast work.
+Python	Build automation, ROM preparation, graphics conversion, profiling, and packaging.
+FFmpeg	Audio conversion and ADX decoding/preparation.
